@@ -50,11 +50,11 @@ Team.find(4).owner
 Students will have a teacher_id.
 
 ```ruby
-Teacher		 Student
+Teacher	     Student
 
 id-----------teacher_id
 				
-			 id
+	     id
 ```
 
 6. Define foreign key, primary key, and schema.
