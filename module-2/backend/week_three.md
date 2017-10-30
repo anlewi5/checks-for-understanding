@@ -35,7 +35,7 @@ Note: When you're done, submit a PR with a reflection in the comments about how 
 	```
 	rails routes
 	```
-	This give you a routes table with the Prefix, Verb, URI, and Controller#Action.
+	This gives you a routes table with the Prefix, Verb, URI, and Controller#Action.
 	
 6. What is an example of a route helper? When would you use them?
 
@@ -49,7 +49,7 @@ Note: When you're done, submit a PR with a reflection in the comments about how 
 	
 8. What are strong params and why are they necessary?
 
-	Strong params are parameters that can't be used in a model until they are permitted. This is important because it forces the programmer to conciously think about what attributes that are making available and acts as a double check against allowing sensitive information to become accessible. 
+	Strong params are parameters that can't be used in a model until they are permitted. This is important because it forces the programmer to conciously think about what attributes they are making available and acts as a double check against allowing sensitive information to become accessible. 
 
 9. What role does `form_for` play in helping us create our forms?
 
@@ -57,7 +57,7 @@ Note: When you're done, submit a PR with a reflection in the comments about how 
 
 10. How does `form_for` know where to submit the user's input?
 
-	`form_for` knows where to submit the user's input by looking at the instance variable.
+	`form_for` knows where to submit the user's input by looking at the instance variable(s) given.
 	
 11. Create a form using a `form_for` helper to create a new `Horse`. 
 
