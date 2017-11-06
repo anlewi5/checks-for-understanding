@@ -36,7 +36,7 @@
 <%= image_tag "rails.png" %>
 ```
 
-	These helper tags format what is put into them as HTML code.
+These helper tags format what is put into them as HTML code.
 
 COME BACK
 
@@ -68,7 +68,7 @@ COME BACK
 User.create(name: "Happy", active: true)
 ```
 
-	In the User model:
+In the User model:
 	
 	`scope :active, => { where(active: true) }`
 
